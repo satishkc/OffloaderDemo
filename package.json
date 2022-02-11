@@ -1,0 +1,21 @@
+{
+  "name": "offloaderdemo",
+  "version": "1.0.0",
+  "description": "Document Offloader using Salesforce PubSub API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satish Chandrashekar",
+  "license": "ISC",
+  "dependencies": {
+    "avro": "^0.1.0",
+    "avro-js": "^1.10.2",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "grpc": "^1.24.11",
+    "jsforce": "^1.10.1",
+    "path": "^0.12.7",
+    "semaphore": "^1.1.0"
+  }
+}
